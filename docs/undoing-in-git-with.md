@@ -1,9 +1,9 @@
 ---
-title: Git Fundamentals
+title: Undoing in Git with
 nav_order: 4
 ---
 
-# Git Fundamentals
+# Undoing in Git with
 
 *insert short summary here*
 
