@@ -4,12 +4,23 @@ title: The Git Life Cycle
 nav_order: 2
 ---
 
+<!-- prettier-ignore-start -->
+
 # The Git Life Cycle 
+{: .no_toc }
 
 The Git Life Cycle is the different stages the files and directory goes through when working with Git.
 
 
 As you work with Git, it is best to be updated on the terminology and be knowledgable on the different states the directory and files goes through.
+
+## Table of Contents
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+<!-- prettier-ignore-end -->
 
 ## Directory
 
@@ -86,6 +97,10 @@ There are four states that files can go through during the Git Life Cycle:
 - Unmodified
 
 - Modified
+
+![The Git Life Cycle](lifecycle.png)
+
+Picture Source: [https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository).
 
 ### Untracked
 
