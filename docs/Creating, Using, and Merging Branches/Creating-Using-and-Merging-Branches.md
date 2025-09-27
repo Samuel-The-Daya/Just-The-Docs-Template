@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Creating, Using, and Merging Branches
-nav_order: 2
+nav_order: 5
 ---
 
 <!-- prettier-ignore-start -->
@@ -57,6 +57,7 @@ git checkout -b <branch-name>
 
 Branching allows for isolated development, and merging brings those developments
 back into the main timeline.
+
 Let's say we've been working and committing to an experimental branch and we
 want to merge those commits back into main:
 
