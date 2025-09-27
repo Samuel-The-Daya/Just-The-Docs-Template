@@ -38,6 +38,8 @@ git branch <branch-name>
 
 ```
 
+This will create a new branch in your repository, creating a seperate "timeline" of your project.
+
 Switching to a branch:
 
 ```
@@ -46,6 +48,8 @@ git checkout <branch-name>
 
 ```
 
+Switching branches will move you to the branch that you want to work in. Making commits in that branch keeps all your commits to that branch and nowhere else.
+
 Create and switch in a single command:
 
 ```
@@ -53,6 +57,9 @@ Create and switch in a single command:
 git checkout -b <branch-name>
 
 ```
+
+The fastest way to create and switch branches.
+
 ## Merging Branches
 
 Branching allows for isolated development, and merging brings those developments
@@ -67,6 +74,8 @@ git checkout main
 git merge experimental
 
 ```
+
+Merging will bring all the commits made in the separate branch back to main and update the state of the project like it was in the branch, while also linking it with any additional commtis made in main.
 
 ## Merge Conflicts
 
