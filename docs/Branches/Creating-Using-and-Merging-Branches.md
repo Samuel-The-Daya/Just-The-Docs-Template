@@ -93,5 +93,4 @@ To resolve a merge conflict:
 3. Commit the fix with `git commit`.
 
 ## Sources
-[https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531988/View](https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531988/View).
-[https://www.geeksforgeeks.org/git/git-life-cycle](https://www.geeksforgeeks.org/git/git-life-cycle).
+[https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531990/View](https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531990/View).
