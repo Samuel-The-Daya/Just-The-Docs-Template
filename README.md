@@ -189,15 +189,11 @@ This is the lists of tasks needed to get done for this project:
 
 - **Sadie:** Using a Git Ignore File
 
-- **Samuel:** Creating, Using, and Merging Branches
-
 - **Jake:** Resolving Merge Conflict
 
 - **Jake:** Stashing
 
 - **Sadie:** Tags
-
-- **Samuel:** Remote Repositories
 
 - **Samuel:** Adding / Configuring a GitHub Remote
 
@@ -214,8 +210,6 @@ This is the lists of tasks needed to get done for this project:
 - Other Interesting/Useful Git Topics
 
 ## Doing
-
-- **Samuel:** The Git Life Cycle.
 
 - **Sadie:** The role of version control in software development.
 
@@ -234,6 +228,12 @@ This is the lists of tasks needed to get done for this project:
 - **Jake:** When to use the different strategies.
 
 ## Done
+
+- **Samuel:** The Git Life Cycle.
+
+- **Samuel:** Creating, Using, and Merging Branches
+
+- **Samuel:** Remote Repositories
 
 ----
 
