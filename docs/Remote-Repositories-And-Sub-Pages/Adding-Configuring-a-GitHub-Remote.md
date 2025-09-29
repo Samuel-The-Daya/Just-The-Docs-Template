@@ -9,9 +9,11 @@ nav_order: 1
 # Adding / Configuring a GitHub Remote 
 {: .no_toc }
 
-Working with multiple people or making different types of changes can lead to chaos if it is unorganized.
+GitHub is one of many Git version control remote repository services that you can use.
 
-**Branches** allows for creating multiple changes on the repository in a separate "version without affecting the project unless needed to be.
+Using GitHub will give you access to remote repositories and allow for you to make changes to your repository from any machine as long as it is all linked to the same repository.
+
+This is also a build up to using GitHub for turning your repository to a collaborative team project.
 
 ## Table of Contents
 {: .no_toc }
@@ -64,31 +66,5 @@ Check if the remote has been added to a repository:
 ```
 
 git remote -v
-
-```
-
-## GitHub Worflow
-
-If you want to make a copy of a GitHub repository to your local machine, you can **clone** it:
-
-```
-
-git clone git@github.com:<INSERT-YOUR-GITHUB-USERNAME>/<INSERT-YOUR-REPOSITORY-NAME>.git
-
-```
-
-When you want to send your commits of the local repository to GitHub:
-
-```
-
-git push origin <INSERT-YOUR-BRANCH-NAME>
-
-```
-
-When you want to grab the latest commits from your remote repository on GitHub:
-
-```
-
-git pull origin <INSERT-YOUR-BRANCH-NAME>
 
 ```
