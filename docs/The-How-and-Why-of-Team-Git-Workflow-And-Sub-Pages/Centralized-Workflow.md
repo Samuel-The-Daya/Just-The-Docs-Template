@@ -68,7 +68,3 @@ Check if the remote has been added to a repository:
 git remote -v
 
 ```
-
-## Sources
-
-[https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531990/View](https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531990/View).

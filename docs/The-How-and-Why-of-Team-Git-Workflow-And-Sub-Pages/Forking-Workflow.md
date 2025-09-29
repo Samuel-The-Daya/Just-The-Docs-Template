@@ -98,7 +98,3 @@ Common times people pull:
 - If in a branch with a team, Whenever a push is made from another team member.
 
 It is best to always pull before starting work and push everytime finishing work. This is the base line of working on a remote repository.
-
-## Sources
-
-[https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531990/View](https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531990/View).
