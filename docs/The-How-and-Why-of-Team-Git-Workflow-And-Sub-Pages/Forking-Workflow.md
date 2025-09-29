@@ -1,17 +1,15 @@
 ---
-title: Pushing and Pulling
-parent: Remote Repositories
-nav_order: 2
+title: Forking Workflow
+parent: The How and Why of Team Git Workflow
+nav_order: 4
 ---
 
 <!-- prettier-ignore-start -->
 
-# Pushing and Pulling
+# Forking Workflow
 {: .no_toc }
 
-Pushing and Pulling are the two main commands to using a remote repository.
-
-This module will teach you the simple GitHub workflow and also the best practices of pushing and pulling.
+The **Forking Workflow** is often used for open source projects, in this workflow each developer gets not only their own local repository, but also a server-side copy of the project.
 
 ## Table of Contents
 {: .no_toc }
@@ -21,80 +19,34 @@ This module will teach you the simple GitHub workflow and also the best practice
 
 <!-- prettier-ignore-end -->
 
-## GitHub Worflow
+## Concepts of the Forking Workflow
 
-If you want to make a copy of a GitHub repository to your local machine, you can **clone** it:
+These are the base concepts of the Feature Branch Workflow.
 
-```
+- Developers push to their own server-side repositories.
 
-git clone git@github.com:<INSERT-YOUR-GITHUB-USERNAME>/<INSERT-YOUR-REPOSITORY-NAME>.git
+- Changes are shared via pull requests from their personal public repository.
 
-```
+- The project maintainer has the final say on what is merged into the official repository.
 
-When you want to send your commits of the local repository to GitHub:
+_**Note:** This workflow is sometimes called [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow)._
 
-```
+## Life Cycle of Forking Workflow
 
-git push origin <INSERT-YOUR-BRANCH-NAME>
+Works like the Feature Branch, except:
 
-```
+1. **Forking:** Each team member creates a fork of the project on the git hosting service.
 
-When you want to grab the latest commits from your remote repository on GitHub:
+2. **Cloning:** Team members clone their remote fork to a local repository.
 
-```
+3. **Adding an Upstream:** Team members configure a secondary remote called `upstream` that points to the official repository.
 
-git pull origin <INSERT-YOUR-BRANCH-NAME>
+4. **Resolving Conflicts:** Remote commits from `upstream` can be pulled into the local feature branch, with merge conflicts resolved as required.
 
-```
+5. **Pushing to Remote:** Local feature branches are pushed to the forked remote.
 
-## Pushing
+6. **Requesting a Remote Merge:** Pull request are initiated to request merges from the remote fork to the official upstream repository.
 
-When you want to send your commits of the local repository to GitHub:
+## Source
 
-```
-
-git push origin <INSERT-YOUR-BRANCH-NAME>
-
-```
-
-With this command your local commits on the repository will be sent to the GitHub repository.
-
-This links all your changes to the remote repository, but not your future changes, you must push once more to keep sending changes.
-
-Think of it as making documents that you then fax over to your office.
-
-## Pulling
-
-When you want to grab the latest commits from your remote repository on GitHub:
-
-```
-
-git pull origin <INSERT-YOUR-BRANCH-NAME>
-
-```
-
-If your repository has is not updated to the current state of the remote repository, pulling will update your local repository.
-
-Before pushing to a remote repository you must pull first.
-
-**Important:** If you made any commits on your local repository before pulling, you may run into **merge conflicts** that you have to resolve.
-
-## When To Push and Pull
-
-There are multiple philosophies that people follow when pushing and pulling.
-
-Common times people push:
-
-- After every commit.
-
-- If in a branch with a team, alternating with team members.
-
-- Before closing the repository for the day.
-
-Common times people pull:
-
-- Before beginning to work on the repository for the day.
-
-- If in a branch with a team, Whenever a push is made from another team member.
-
-It is best to always pull before starting work and push everytime finishing work. This is the base line of working on a remote repository.
+[https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531991/View](https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531991/View).

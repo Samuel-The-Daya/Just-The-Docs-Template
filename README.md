@@ -195,18 +195,6 @@ This is the lists of tasks needed to get done for this project:
 
 - **Sadie:** Tags
 
-- **Samuel:** Adding / Configuring a GitHub Remote
-
-- **Samuel:** Pushing and Pulling
-
-- **Samuel:** The How and Why of Team Git Workflow
-
-- **Samuel:** Centralized Workflow
-
-- **Samuel:** Feature Branch Workflow
-
-- **Samuel:** Forking Workflow
-
 - Other Interesting/Useful Git Topics
 
 ## Doing
@@ -229,11 +217,23 @@ This is the lists of tasks needed to get done for this project:
 
 ## Done
 
-- **Samuel:** The Git Life Cycle.
+- **Samuel:** The Git Life Cycle. **Finished September 27**
 
-- **Samuel:** Creating, Using, and Merging Branches
+- **Samuel:** Creating, Using, and Merging Branches. **Finished September 27**
 
-- **Samuel:** Remote Repositories
+- **Samuel:** Remote Repositories. **Finished September 27**
+
+- **Samuel:** Adding / Configuring a GitHub Remote - **Finished September 29**
+
+- **Samuel:** Pushing and Pulling **Finished September 29**
+
+- **Samuel:** The How and Why of Team Git Workflow **Finished September 29**
+
+- **Samuel:** Centralized Workflow **Finished September 29**
+
+- **Samuel:** Feature Branch Workflow **Finished September 29**
+
+- **Samuel:** Forking Workflow **Finished September 29**
 
 ----
 

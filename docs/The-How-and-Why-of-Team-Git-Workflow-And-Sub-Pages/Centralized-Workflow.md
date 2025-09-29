@@ -1,19 +1,15 @@
 ---
-title: Adding / Configuring a GitHub Remote
-parent: Remote Repositories
-nav_order: 1
+title: Centralized Workflow
+parent: The How and Why of Team Git Workflow
+nav_order: 2
 ---
 
 <!-- prettier-ignore-start -->
 
-# Adding / Configuring a GitHub Remote 
+# Centralized Workflow
 {: .no_toc }
 
-GitHub is one of many Git version control remote repository services that you can use.
-
-Using GitHub will give you access to remote repositories and allow for you to make changes to your repository from any machine as long as it is all linked to the same repository.
-
-This is also a build up to using GitHub for turning your repository to a collaborative team project.
+The **Centralized Workflow** is about working on a single branch.
 
 ## Table of Contents
 {: .no_toc }
@@ -23,48 +19,29 @@ This is also a build up to using GitHub for turning your repository to a collabo
 
 <!-- prettier-ignore-end -->
 
-## Introduction to GitHub
+## Concepts of the Centralized Workflow
 
-There are numerous ways with setting up a remote repository using Git. A very common option is to use GitHub.
+These are the base concepts of the Centralized Workflow.
 
-GitHub is a hosting platform for Git repositories owned by Microsoft.
+- Simple and similar to Subversion-style workflows.
+- Not as powerful or flexible as other workflows.
+- Suitable for small teams and projects.
+- Merging can be problematic.
 
-It provides a web-based interface to interact with your repositories and adds social and collaboration features.
+## Life Cycle of Centralized Workflow
 
-## Remote Repository / GitHub Terminology
+1. Initialization: One team member creates the repository with an online remote.
 
-**Push**: Send commits made on a local repository to the remote repository. Send changes to the remote repository.
+2. **Cloning:** Each team member creates a local copy by "cloning" the remote.
 
-**Pull**: Fetch and merge changes from a repository into the current branch. Used to keep local repositories up to date with remote repository.
+3. **Working Locally:** Developers work on the project, committing to their local repository.
 
-**Clone**: May a full copy of a repository at its current state. Commonly use to make a copy of a remote repository to to a local repository.
+4. **Resolving Conflicts:** When a developer is ready to share their changes, they must pull outstanding changes from the remote, and resolve merge conflicts as required.
 
-## Adding Repositories to GitHub
+5. **Pushing to Remote:** The developer can now push their changes to the central repository.
 
-Before linking a local repository to GitHub, make sure that you have a GitHub account set up.
+6. **Synchronizing Team:** Others can now pull from the central repository to locally incorporate the latest changes.
 
-To save a local git repository to your GitHub account, create a new repository by way of the "+" button in the top right corner of the GitHUb website.
+## Source
 
-**IMPORTANT:** Be sure not to initialize with a README or with any other files
-
-## Linking Your Local Repository to GitHub
-
-To link a local repository to GitHub, you take your repository name, for this example its `My-Repository`. Make sure it is an initialized Git repository.
-
-From the command line (within the project folder) add GitHub as a remote:
-
-```
-
-git remote add origin git@github.com:<INSERT-YOUR-GITHUB-USERNAME>/My-Repository.git
-
-```
-
-_Reminder that `<INSERT-YOUR-GITHUB-USERNAME>` should be replaced with your GitHub username._
-
-Check if the remote has been added to a repository:
-
-```
-
-git remote -v
-
-```
+[https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531991/View](https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531991/View).
