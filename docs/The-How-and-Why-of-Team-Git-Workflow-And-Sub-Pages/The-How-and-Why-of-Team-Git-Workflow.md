@@ -6,16 +6,15 @@ nav_order: 10
 
 # The How and Why of Team Git Workflow
 
-A remote repository is a version of your project that is hosted on a remote server.
+Working with a team is sometimes more efficient than working alone, but working on the same project could lead to tos of overlaps.
 
-Remote repositories can interact with local repositories, allowing you to push your
-changes to others and pull their changes to your local repository.
+Git and Github allows for multiple developers to work on the same project without stepping on each other's shoes.
 
 ## Information
 
-In these pages, it will teach you:
+These pages contain the following information:
 
-- How to setup a remote repository
-- Connect local repository to the remote repository
-- How to push and pull.
-- Cloning and Forking remote repositories to local machine.
+- Commands and concepts needed in collaborative Git Workflow.
+- How to work and manage Pull Requests.
+- The differences between different Git Workflows.
+
