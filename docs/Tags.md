@@ -3,8 +3,19 @@ layout: default
 title: Tags
 nav_order: 5
 ---
+<!-- prettier-ignore-start -->
+# Main Title for Module 
+{: .no_toc }
 
-# Tags
+Tags are a like a bookmark for your commits. Tags can be a handy tool for tracking versions or milestones in projects. The user can show info about tags, compare different tags, along with listing all of their created tags. 
+
+## Table of Contents
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+<!-- prettier-ignore-end -->
 
 ## Introducing Tags
 Tags in Git are like bookmarks for important events or milestones in your project.

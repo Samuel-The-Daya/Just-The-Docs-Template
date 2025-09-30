@@ -4,7 +4,19 @@ parent: Git-Fundamentals
 nav_order: 4
 ---
 
-# Status, Logs and Diff
+<!-- prettier-ignore-start -->
+# Status, Log and Diff
+{: .no_toc }
+
+Status, Log and Diff are all git commands that help the user manage their projects. Status allows the user to check the status of their repo. Log allows the user to show the history of commits. Finally Diff allows users to compare files between commits. 
+
+## Table of Contents
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+<!-- prettier-ignore-end -->
 ## Checking Your Repo's Status
 To check the status of the repo for changes or additions:
 

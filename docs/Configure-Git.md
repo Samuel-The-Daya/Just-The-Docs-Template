@@ -4,7 +4,19 @@ parent: Git-Fundamentals
 nav_order: 1
 ---
 
-# Configuring Git
+<!-- prettier-ignore-start -->
+# Configure Git 
+{: .no_toc }
+
+Before we create our repository we need to set up Git on our device. We need to set our main folder where your project will be stored. Next we need to give some info to git. This is handy when we need to see commit messages. 
+
+## Table of Contents
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+<!-- prettier-ignore-end -->
 ## Testing, Testing, 1, 2, 3...
 Start by launching Git Bash from the Windows Terminal.
 And try running:

@@ -3,7 +3,19 @@ title: History
 parent: Git-Fundamentals 
 nav_order: 3
 ---
-#Staging and Committing 
+<!-- prettier-ignore-start -->
+# Staging and committing
+{: .no_toc }
+
+Before we commit our files to our repo, we must first stage them. This is were we give clear and concise commit messages. Commit messages benefit everyone, they allow group members and yourself to look at what changes you have made. This allows groups to track and manage commits. 
+
+## Table of Contents
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+<!-- prettier-ignore-end -->
 ## Staging Files Before we Commit
 As we make changes to our code we **commit** the changes to our git repo.
 Before we can **commit** we must **add** new or changed files to a staging area.
@@ -25,7 +37,7 @@ git commit -m "Your explanation of the changes goes here."
 git commit -m "Title" -m "Long description goes here .........."; 
 ```
 
-We can even configure git to open a text editor of our choice using:
+We can even [configure git to open a text editor of our choice using:](https://docs.github.com/en/get-started/getting-started-with-git/associating-text-editors-with-git)
 ``git commit``
 
 ## Good Commit Messages are Crucial!
