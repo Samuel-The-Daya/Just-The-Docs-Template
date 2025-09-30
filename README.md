@@ -178,65 +178,53 @@ This is the lists of tasks needed to get done for this project:
 
 ## To-Do
 
-- **Sadie:** Git Fundamentals.
+**Sadie:** 
+- Git Fundamentals.
+- Configuring Git
+- Initializing a Repo
+- Staging and Commit Files
+- Status, Log, and Diff
+- Using a Git Ignore File
+- Creating, Using, and Merging Branches
+- Tags
 
-- **Sadie:** Configuring Git
-
-- **Sadie:** Initializing a Repo
-
-- **Sadie:** Staging and Commit Files
-
-- **Sadie:** Status, Log, and Diff
-
-- **Sadie:** Using a Git Ignore File
-
-- **Samuel:** Creating, Using, and Merging Branches
-
-- **Sadie:** Tags
-
-- **Samuel:** Remote Repositories
-
-- **Samuel:** Adding / Configuring a GitHub Remote
-
-- **Samuel:** Pushing and Pulling
-
-- **Samuel:** The How and Why of Team Git Workflow
-
-- **Samuel:** Centralized Workflow
-
-- **Samuel:** Feature Branch Workflow
-
-- **Samuel:** Forking Workflow
+**Samuel:** 
+- Remote Repositories
+- Adding / Configuring a GitHub Remote
+- Pushing and Pulling
+- The How and Why of Team Git Workflow
+- Centralized Workflow
+- Feature Branch Workflow
+- Forking Workflow
 
 - Other Interesting/Useful Git Topics
 
 ## Doing
 
-- **Samuel:** The Git Life Cycle.
+**Samuel:** 
+- The Git Life Cycle.
 
-- **Sadie:** The role of version control in software development.
+**Sadie:** 
+- The role of version control in software development.
+- What is Git (including pros and cons).
 
-- **Sadie:** What is Git (including pros and cons).
+**Jake:** 
+- OTHER USEFUL TOPIC: Pull Requests
+- Adding new resources to pages for additional information.
 
 ## Done
 
-- **Jake:** Checkout **Finished September 26**
+**Jake:** 
+- Checkout **(Finished September 26)**
+- Reset **(Finished September 26)**
+- Revert **(Finished September 26)**
+- Clean **(Finished September 26)**
+- When to use the different strategies. **(Finished September 26)**
+- Undoing in Git with: **(Finished September 29)**
+- Resolving Merge Conflict **(Finished September 29)**
+- Stashing **(Finished September 29)**
+- Review Collaborator Pull Requests **(Finished September 30)**
 
-- **Jake:** Reset **Finished September 26**
-
-- **Jake:** Revert **Finished September 26**
-
-- **Jake:** Clean **Finished September 26**
-
-- **Jake:** When to use the different strategies. **Finished September 26**
-
-- **Jake:** Undoing in Git with: **Finished September 29**
-
-- **Jake:** Resolving Merge Conflict **Finished September 29**
-
-- **Jake:** Stashing **Finished September 29**
-
-- **Sadie:** Tags **Finished September 29**
 ----
 
 [Jekyll]: https://jekyllrb.com
