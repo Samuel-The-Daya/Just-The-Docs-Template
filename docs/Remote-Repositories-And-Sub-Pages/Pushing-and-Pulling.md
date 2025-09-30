@@ -11,7 +11,7 @@ nav_order: 2
 
 Pushing and Pulling are the two main commands to using a remote repository.
 
-This module will teach you the simple GitHub workflow and also the best practices of pushing and pulling.
+This module will teach you the GitHub workflow and also the best practices of pushing and pulling.
 
 ## Table of Contents
 {: .no_toc }
@@ -21,45 +21,27 @@ This module will teach you the simple GitHub workflow and also the best practice
 
 <!-- prettier-ignore-end -->
 
-## GitHub Worflow
+## GitHub Workflow
 
 If you want to make a copy of a GitHub repository to your local machine, you can **clone** it:
 
 ```
-
 git clone git@github.com:<INSERT-YOUR-GITHUB-USERNAME>/<INSERT-YOUR-REPOSITORY-NAME>.git
-
 ```
 
-When you want to send your commits of the local repository to GitHub:
-
-```
-
-git push origin <INSERT-YOUR-BRANCH-NAME>
-
-```
-
-When you want to grab the latest commits from your remote repository on GitHub:
-
-```
-
-git pull origin <INSERT-YOUR-BRANCH-NAME>
-
-```
+Once you have your local and remote repository set up, you can **push** and **pull** changes.
 
 ## Pushing
 
 When you want to send your commits of the local repository to GitHub:
 
 ```
-
 git push origin <INSERT-YOUR-BRANCH-NAME>
-
 ```
 
 With this command your local commits on the repository will be sent to the GitHub repository.
 
-This links all your changes to the remote repository, but not your future changes, you must push once more to keep sending changes.
+This links all your changes to the remote repository, but not your future changes, you must push whenever you wish to send a change.
 
 Think of it as making documents that you then fax over to your office.
 
@@ -68,14 +50,12 @@ Think of it as making documents that you then fax over to your office.
 When you want to grab the latest commits from your remote repository on GitHub:
 
 ```
-
 git pull origin <INSERT-YOUR-BRANCH-NAME>
-
 ```
 
-If your repository has is not updated to the current state of the remote repository, pulling will update your local repository.
+If your repository is not updated to the current state of the remote repository, pulling will update your local repository.
 
-Before pushing to a remote repository you must pull first.
+It is best practice to pull before pushing to avoid merge conflicts.
 
 **Important:** If you made any commits on your local repository before pulling, you may run into **merge conflicts** that you have to resolve.
 
@@ -97,8 +77,12 @@ Common times people pull:
 
 - If in a branch with a team, Whenever a push is made from another team member.
 
-It is best to always pull before starting work and push everytime finishing work. This is the base line of working on a remote repository.
+It is best to always pull before starting work and push everytime finishing work.
 
-## Sources
+## Sources & Additional Links
 
-[https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531990/View](https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531990/View).
+[Class Notes](https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531990/View).
+
+[Pushing Commits to a remote repository](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository).
+
+[Getting changes from a remote repository](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository).

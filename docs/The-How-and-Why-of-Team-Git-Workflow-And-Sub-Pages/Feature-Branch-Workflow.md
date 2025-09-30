@@ -1,7 +1,7 @@
 ---
 title: Feature Branch Workflow
 parent: The How and Why of Team Git Workflow
-nav_order: 3
+nav_order: 2
 ---
 
 <!-- prettier-ignore-start -->
@@ -11,6 +11,10 @@ nav_order: 3
 
 The **Feature Branch Workflow** is about working feature development or bug fixes on dedicated branches for each feature / fix.
 
+Team members are divided to work on each feature in those branches and minimizes merge conflicts.
+
+The main branch is always kept clean and branches are only pulled into main when it is finished.
+
 ## Table of Contents
 {: .no_toc }
 
@@ -19,15 +23,19 @@ The **Feature Branch Workflow** is about working feature development or bug fixe
 
 <!-- prettier-ignore-end -->
 
-## Concepts of the Feature Branch Workflow
+## Strengths & Weaknesses of the Feature Branch Workflow
 
-These are the base concepts of the Feature Branch Workflow.
+These are the strengths and weaknesses of the Feature Branch Workflow.
 
+Strengths:
 - Isolates new development from the main branch.
-
 - Makes it easy to discard experimental changes.
-
 - Facilitates code review via pull requests.
+
+Weaknesses:
+- Not all developers are updated on each branch when working with multiple feature branches.
+- Unnecessary Merge Conflicts may arise.
+- Long branches require long reviews.
 
 _**Note:** This workflow is sometimes called [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow)._
 
@@ -45,6 +53,12 @@ _**Note:** This workflow is sometimes called [GitHub Flow](https://docs.github.c
 
 _**Note:** Pull requests can be sent back unmerged if rework is deamed necessary._
 
-## Source
+## Source & Additional Links
 
-[https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531991/View](https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531991/View).
+[Class Notes](https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531991/View).
+
+[Comparing Git workflows: What you should know](https://www.atlassian.com/git/tutorials/comparing-workflows).
+
+[Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow).
+
+[The Pitfalls of Feature Branching](https://www.cloudbees.com/blog/pitfalls-feature-branching).

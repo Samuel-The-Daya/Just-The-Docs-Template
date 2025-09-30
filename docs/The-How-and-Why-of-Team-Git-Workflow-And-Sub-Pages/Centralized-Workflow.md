@@ -1,7 +1,7 @@
 ---
 title: Centralized Workflow
 parent: The How and Why of Team Git Workflow
-nav_order: 2
+nav_order: 1
 ---
 
 <!-- prettier-ignore-start -->
@@ -9,7 +9,11 @@ nav_order: 2
 # Centralized Workflow
 {: .no_toc }
 
-The **Centralized Workflow** is about working on a single branch.
+The **Centralized Workflow** is about working on a single branch and publishing changes to the same remote repository. 
+
+All team members are not separated by branches but instead follow a cycle of pushing, pulling and resolving merge conflicts.
+
+With a centralized workflow each team member is updated on every new change in the remote repository.
 
 ## Table of Contents
 {: .no_toc }
@@ -19,13 +23,16 @@ The **Centralized Workflow** is about working on a single branch.
 
 <!-- prettier-ignore-end -->
 
-## Concepts of the Centralized Workflow
+## Strengths & Weaknesses of the Centralized Workflow
 
-These are the base concepts of the Centralized Workflow.
+These are the strengths and weaknesses of the Centralized Workflow.
 
+Strengths:
 - Simple and similar to Subversion-style workflows.
-- Not as powerful or flexible as other workflows.
 - Suitable for small teams and projects.
+
+Weaknesses:
+- Not as powerful or flexible as other workflows.
 - Merging can be problematic.
 
 ## Life Cycle of Centralized Workflow
@@ -42,6 +49,8 @@ These are the base concepts of the Centralized Workflow.
 
 6. **Synchronizing Team:** Others can now pull from the central repository to locally incorporate the latest changes.
 
-## Source
+## Source & Additional Links
 
-[https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531991/View](https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531991/View).
+[Class Notes](https://learn.rrc.ca/d2l/le/content/645955/viewContent/10531991/View).
+
+[Comparing Git workflows: What you should know](https://www.atlassian.com/git/tutorials/comparing-workflows).
