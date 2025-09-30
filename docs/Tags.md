@@ -4,7 +4,7 @@ title: Tags
 nav_order: 5
 ---
 <!-- prettier-ignore-start -->
-# Main Title for Module 
+# Tags
 {: .no_toc }
 
 Tags are a like a bookmark for your commits. Tags can be a handy tool for tracking versions or milestones in projects. The user can show info about tags, compare different tags, along with listing all of their created tags. 
