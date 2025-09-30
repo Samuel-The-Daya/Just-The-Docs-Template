@@ -60,3 +60,6 @@ To restore stashed changes, use:
 ```git stash clear``` : This command removes all your stashes.
 
 ```git stash pop 'stash@{n}'``` : Pop a specific stash seen in ```git stash list``` .
+
+## Sources
+- [Class Notes](https://stungeye.github.io/Software-Development-And-Documentation-1/02-git-version-control-next-steps/index.html#27)

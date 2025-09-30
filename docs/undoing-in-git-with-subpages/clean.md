@@ -38,3 +38,6 @@ If you want to remove all untracked files from your working directory:
 ```
 git clean
 ```
+
+## Sources
+- [Documentation for ```git clean```](https://git-scm.com/docs/git-clean)

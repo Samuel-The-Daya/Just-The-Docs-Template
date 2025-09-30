@@ -36,3 +36,7 @@ If you want to revert changes to all unstaged files and folders to the most rece
 ```
 git checkout .
 ```
+
+
+## Sources
+- [Class Notes on ```git checkout```](https://stungeye.github.io/Software-Development-And-Documentation-1/02-git-version-control-next-steps/index.html#4)

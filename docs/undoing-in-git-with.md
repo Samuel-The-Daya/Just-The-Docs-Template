@@ -24,3 +24,12 @@ Upon completion of this module, you should be able to:
 - Use ```git revert``` to publicly undo one or more commits.
 - Use ```git clean``` to remove one or more untracked files from your working directory.
 - Know when to use any of the commands listed above.
+
+## Sources
+
+- [Class Notes](https://stungeye.github.io/Software-Development-And-Documentation-1/02-git-version-control-next-steps/index.html#3) 
+                ([```git checkout```](https://stungeye.github.io/Software-Development-And-Documentation-1/02-git-version-control-next-steps/index.html#4), 
+                 [```git reset```](https://stungeye.github.io/Software-Development-And-Documentation-1/02-git-version-control-next-steps/index.html#6),
+                 [```git revert```](https://stungeye.github.io/Software-Development-And-Documentation-1/02-git-version-control-next-steps/index.html#11))
+- [An explanation of ```git reset``` including Mixed Resets](https://practicalseries.com/1002-vcs/02-05-concept.html#js--020505)
+- [Documentation for ```git clean```](https://git-scm.com/docs/git-clean)

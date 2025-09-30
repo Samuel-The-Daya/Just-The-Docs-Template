@@ -47,3 +47,6 @@ To resolve a merge conflict:
 1. Edit the file to fix the conflicting changes. *Be sure to remove the conflict markers.*
 2. Add the file to the staging area with ```git add``` .
 3. Commit the fix with ```git commit``` .
+
+## Sources
+- [Class Notes](https://stungeye.github.io/Software-Development-And-Documentation-1/02-git-version-control-next-steps/index.html#24)

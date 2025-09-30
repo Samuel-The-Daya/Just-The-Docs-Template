@@ -47,3 +47,6 @@ git revert -n B^..D (cancel revert's automatic commit.)
 
 git commit -m "Revert commits C through D inclusively." (then perform a commit manually to only commit once.)
 ```
+
+## Sources
+- [Class Notes on ```git revert```](https://stungeye.github.io/Software-Development-And-Documentation-1/02-git-version-control-next-steps/index.html#11)

@@ -55,3 +55,7 @@ git reset --hard [B] (reset to commit B)
 
 git reset --hard [D] (reset back to commit D)
 ```
+
+## Sources
+- [Class Notes on ```git reset```](https://stungeye.github.io/Software-Development-And-Documentation-1/02-git-version-control-next-steps/index.html#6)
+- [An explanation of ```git reset``` including Mixed Resets](https://practicalseries.com/1002-vcs/02-05-concept.html#js--020505)
