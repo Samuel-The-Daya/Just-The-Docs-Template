@@ -189,33 +189,15 @@ This is the lists of tasks needed to get done for this project:
 
 - **Sadie:** Using a Git Ignore File
 
-- **Samuel:** Creating, Using, and Merging Branches
-
 - **Jake:** Resolving Merge Conflict
 
 - **Jake:** Stashing
 
 - **Sadie:** Tags
 
-- **Samuel:** Remote Repositories
-
-- **Samuel:** Adding / Configuring a GitHub Remote
-
-- **Samuel:** Pushing and Pulling
-
-- **Samuel:** The How and Why of Team Git Workflow
-
-- **Samuel:** Centralized Workflow
-
-- **Samuel:** Feature Branch Workflow
-
-- **Samuel:** Forking Workflow
-
 - Other Interesting/Useful Git Topics
 
 ## Doing
-
-- **Samuel:** The Git Life Cycle.
 
 - **Sadie:** The role of version control in software development.
 
@@ -234,6 +216,24 @@ This is the lists of tasks needed to get done for this project:
 - **Jake:** When to use the different strategies.
 
 ## Done
+
+- **Samuel:** The Git Life Cycle. **Finished September 27**
+
+- **Samuel:** Creating, Using, and Merging Branches. **Finished September 27**
+
+- **Samuel:** Remote Repositories. **Finished September 27**
+
+- **Samuel:** Adding / Configuring a GitHub Remote - **Finished September 29**
+
+- **Samuel:** Pushing and Pulling **Finished September 29**
+
+- **Samuel:** The How and Why of Team Git Workflow **Finished September 29**
+
+- **Samuel:** Centralized Workflow **Finished September 29**
+
+- **Samuel:** Feature Branch Workflow **Finished September 29**
+
+- **Samuel:** Forking Workflow **Finished September 29**
 
 ----
 
